@@ -1,5 +1,5 @@
 # My Portfolio Website 🌐
-A detailed description of my portfolio.
+This is a mobile website that has information on my past and current projects.
 
 ## Built With
 - HTML5
