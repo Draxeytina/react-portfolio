@@ -26,7 +26,7 @@
 }
 
 .about-heading1 {
-/* Specifics taken from template */
+  /* Specifics taken from template */
   display: flex;
   text-align: center;
   margin-top: 92px;
@@ -35,7 +35,7 @@
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  color: #172B4d;
+  color: #172b4d;
 }
 
 .about-heading2 {
@@ -45,7 +45,7 @@
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  color: rgb(54,179,126);
+  color: rgb(54, 179, 126);
   text-align: center;
 }
 
@@ -66,7 +66,7 @@
 }
 
 .welcome-text {
-/* Specifics taken from template */
+  /* Specifics taken from template */
   padding-left: 26px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
