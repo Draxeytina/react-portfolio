@@ -3,12 +3,10 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-
 }
 
 .burger {
   padding-right: 26px;
-
 }
 
 .main-header {
@@ -17,7 +15,6 @@
   right: 0;
   top: 44px;
   bottom: 0;
-
 }
 
 .navbar-header ul {
@@ -26,7 +23,6 @@
   padding: 0;
   list-style: none;
   justify-content: space-between;
-
 }
 
 .about-heading1 {
@@ -40,7 +36,6 @@
   font-size: 40px;
   line-height: 52px;
   color: #172B4d;
-
 }
 
 .about-heading2 {
@@ -52,7 +47,6 @@
   line-height: 52px;
   color: rgb(54,179,126);
   text-align: center;
-
 }
 
 .summary-section p {
@@ -63,14 +57,12 @@
   line-height: 28px;
   text-align: center;
   color: #172B4d;
-
 }
 
 .alignment {
   justify-content: center;
   padding-left: 24px;
   padding-right: 24px;
-
 }
 
 .welcome-text {
@@ -85,7 +77,6 @@
   color: #28352f;
   flex-grow: 0;
   margin: 0 0;
-
 }
 
 .social-media {
@@ -94,5 +85,4 @@
   flex-grow: 0;
   margin: 58px 107.42px;
   justify-content: space-between;
-
 }
