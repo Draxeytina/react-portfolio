@@ -174,48 +174,10 @@
   column-gap: 8px;
 }
 
-.rubby {
+.button-style-1 {
   height: 32px;
-  width: 103px;
   border-radius: 4px;
   border-style: none;
-  color: #3a4a42;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 12px;
-}
-
-.css {
-  height: 32px;
-  width: 45px;
-  border-radius: 4px;
-  border-style: none;
-  color: #3a4a42;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 12px;
-}
-
-.javascript {
-  height: 32px;
-  width: 82px;
-  border-radius: 4px;
-  border-style: none;
-  color: #3a4a42;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 12px;
-}
-
-.html {
-  height: 32px;
-  width: 51px;
-  border-radius: 4px;
-  border-style: none;
-  color: #3a4a42;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -334,6 +296,7 @@
   padding-right: 22px;
   margin-bottom: 24px;
   margin-top: 0;
+  padding-bottom: 24px;
 }
 
 .links-area-nav ul {
@@ -341,6 +304,7 @@
   flex-wrap: wrap;
   list-style: none;
   align-content: space-around;
+  justify-content: center;
   gap: 8px;
   height: 40px;
   top: 16px;
