@@ -172,6 +172,7 @@
   height: 32px;
   top: 16px;
   column-gap: 8px;
+  border-style: none;
 }
 
 .button-style-1 {
@@ -182,6 +183,8 @@
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
+  background: #ebf0ee;
+  color: #3a4a42;
 }
 
 .project-link {
@@ -323,4 +326,94 @@
   letter-spacing: 0.03em;
   color: #36b37e;
   border-style: none;
+}
+
+.my-email {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #42526e;
+  align-self: center;
+  order: 5;
+}
+
+.contact-me-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#full-name-input {
+  min-width: 327px;
+  border-radius: 4px;
+  background: #fff;
+  border: 1px solid #d0d9d4;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  height: 48px;
+  font-size: 15px;
+  color: #6b778c;
+  padding: 16px 15px;
+  margin-bottom: 24px;
+  margin-top: 58px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+#email-input {
+  min-width: 327px;
+  border-radius: 4px;
+  background: #fff;
+  border: 1px solid #d0d9d4;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  height: 48px;
+  font-size: 15px;
+  color: #6b778c;
+  padding: 16px 15px;
+  margin-top: 0;
+  margin-bottom: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+#textarea-input {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  left: 0;
+  right: 0;
+  top: 0;
+  min-width: 327px;
+  bottom: 0;
+  background: #fff;
+  border: 1px solid #60c095;
+  box-sizing: border-box;
+  border-radius: 4px;
+  height: 114px;
+  color: #091e42;
+  padding: 12px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.button-input {
+  margin: 24px;
+}
+
+.contact-form {
+  background-image: url("/images/illustration-contact-form.svg");
+  background-repeat: no-repeat;
+  background-position: 425px 635px;
+}
+
+.highlight:hover {
+  background-color: #fff !important;
 }
