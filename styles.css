@@ -328,13 +328,6 @@
   border-style: none;
 }
 
-.contact-me-form {
-  display: flex;
-  flex-direction: column;
-  width: 327px;
-  align-items: center;
-}
-
 .my-email {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -343,6 +336,7 @@
   text-align: center;
   color: #42526e;
   align-self: center;
+  order: 5;
 }
 
 #full-name-input {
@@ -356,10 +350,8 @@
   font-weight: 400;
   height: 48px;
   font-size: 15px;
-  display: flex;
-  align-items: center;
   color: #6b778c;
-  padding: 15px, 16px;
+  padding: 16px 15px;
   margin-bottom: 24px;
   margin-top: 58px;
 }
@@ -375,15 +367,17 @@
   font-weight: 400;
   height: 48px;
   font-size: 15px;
-  display: flex;
-  align-items: center;
   color: #6b778c;
-  padding: 15px, 16px;
+  padding: 16px 15px;
   margin-top: 0;
   margin-bottom: 24px;
 }
 
 #textarea-input {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
   left: 0px;
   right: 0px;
   top: 0px;
@@ -394,6 +388,8 @@
   border-radius: 4px;
   height: 114px;
   width: 327px;
+  color: #091e42;
+  padding: 12px;
 }
 
 .button-input {
