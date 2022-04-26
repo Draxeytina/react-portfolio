@@ -388,11 +388,11 @@
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
-  left: 0px;
-  right: 0px;
-  top: 0px;
+  left: 0;
+  right: 0;
+  top: 0;
   min-width: 327px;
-  bottom: 0px;
+  bottom: 0;
   background: #fff;
   border: 1px solid #60c095;
   box-sizing: border-box;
@@ -415,5 +415,5 @@
 }
 
 .highlight:hover {
-  background-color: #ffffff!important;
+  background-color: #fff!important;
 }
