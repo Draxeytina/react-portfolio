@@ -413,3 +413,7 @@
   background-repeat: no-repeat;
   background-position: 425px 635px;
 }
+
+.highlight:hover {
+  background-color: #091e42!important;
+}
