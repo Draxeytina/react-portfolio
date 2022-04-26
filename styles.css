@@ -399,3 +399,9 @@
 .button-input {
   margin: 24px;
 }
+
+.contact-form {
+  background-image: url("/images/illustration-contact-form.svg");
+  background-repeat: no-repeat;
+  background-position: 410px 635px;
+}
