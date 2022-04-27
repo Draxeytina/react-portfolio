@@ -15,7 +15,6 @@
   right: 0;
   top: 44px;
   bottom: 0;
-  height: 48px;
 }
 
 .navbar-header ul {
@@ -91,6 +90,11 @@
   margin: 58px 107.42px;
   justify-content: space-between;
   list-style: none;
+}
+
+.social-media ul {
+  width: 40px;
+  height: 40px;
 }
 
 .normal-button {
@@ -416,4 +420,103 @@
 
 .highlight:hover {
   background-color: rgb(6, 6, 41) !important;
+}
+
+@media (min-width:600px) {
+
+  .desktop-header {
+    background-image: url("/images/Header-llustration-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .desktop-main-header {
+    height: 72px;
+  }
+
+  .main-header {
+    visibility: hidden;
+  }
+
+  .about-heading1 {
+    margin-top: 0px;
+  }
+
+  .desktop-navbar-header ul {
+    display: grid;
+    grid-template-columns: 87px 69px 83px;
+    padding: 10px 12px;
+    list-style: none;
+    margin: 0px 8px;
+    justify-content: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+    text-align: center;
+  }
+
+  .about-container {
+    background-image: none;
+  }
+
+  .about-heading1 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.37px;
+    margin: 0px;
+    margin-top: 160px;
+  }
+
+  .about-heading2 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.37px;
+    margin: 0px;
+    bottom: 0px;
+  }
+
+  .about-text {
+    max-width: 820px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #172B4D;
+    display: flex;
+    justify-items:center;
+    padding-left: 260px;
+    padding-right: 260px;
+    margin-top: 24px;
+  }
+
+  .social-media {
+    display: grid;
+    grid-template-columns: 40px 40px 40px 40px 40px;
+     margin: 0px;
+    padding: 0px;
+    justify-content: center;
+  }
+}
+
+@media (max-width:600px) {
+  .desktop-header {
+    background-image: none;
+  }
+
+  .desktop-navbar-header {
+    display: none;
+  }
+
 }
