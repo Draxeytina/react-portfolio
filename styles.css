@@ -427,7 +427,9 @@
   .desktop-header {
     background-image: url("/images/Header-llustration-desktop.svg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background: size 100%; 
+    left: 27px;
+    top: -398px;
   }
 
   .desktop-main-header {
@@ -471,7 +473,7 @@
     text-align: center;
     letter-spacing: 0.37px;
     margin: 0px;
-    margin-top: 160px;
+    margin-top: 88px;
   }
 
   .about-heading2 {
@@ -479,11 +481,11 @@
     font-style: normal;
     font-weight: 800;
     font-size: 48px;
-    line-height: 60px;
     text-align: center;
     letter-spacing: 0.37px;
     margin: 0px;
     bottom: 0px;
+    margin-bottom: 0px;
   }
 
   .about-text {
@@ -499,14 +501,20 @@
     padding-left: 260px;
     padding-right: 260px;
     margin-top: 24px;
+    margin-bottom: 0px;
+    padding-bottom: 0;
   }
 
   .social-media {
     display: grid;
     grid-template-columns: 40px 40px 40px 40px 40px;
-     margin: 0px;
+    margin: 0px;
     padding: 0px;
     justify-content: center;
+  }
+
+  .normal-button {
+    margin-top: 74px;
   }
 }
 
