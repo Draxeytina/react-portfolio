@@ -516,6 +516,18 @@
   .normal-button {
     margin-top: 74px;
   }
+
+  .works-headline {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #172b4d;
+  }
 }
 
 @media (max-width:600px) {
