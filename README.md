@@ -6,6 +6,10 @@ This is a mobile website that has information on my past and current projects.
 - CSS3
 - Flexbox
 
+## See Project
+Follow the link to view the project:
+https://github.com/Draxeytina/Portfolio-trial
+
 ## Getting Started
 You may setup the project on your local machine using the following steps:
 
