@@ -422,12 +422,10 @@
   background-color: rgb(6, 6, 41) !important;
 }
 
-@media (min-width:600px) {
-
+@media (min-width: 600px) {
   .desktop-header {
     background-image: url("/images/Header-llustration-desktop.svg");
     background-repeat: no-repeat;
-    background: size 100%; 
     left: 27px;
     top: -398px;
   }
@@ -438,10 +436,6 @@
 
   .main-header {
     visibility: hidden;
-  }
-
-  .about-heading1 {
-    margin-top: 0;
   }
 
   .about-me {
@@ -457,7 +451,7 @@
     list-style: none;
     margin: 0 8px;
     justify-content: center;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
@@ -496,14 +490,14 @@
 
   .about-text {
     max-width: 820px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     text-align: center;
     color: #172b4d;
     display: flex;
-    justify-items:center;
+    justify-items: center;
     padding-left: 260px;
     padding-right: 260px;
     margin-top: 24px;
@@ -553,7 +547,7 @@
   }
 
   .about-me-text {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -591,7 +585,7 @@
   }
 
   .contact-form h3 {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
@@ -623,11 +617,9 @@
   .my-email {
     display: none;
   }
-
 }
 
-@media (max-width:600px) {
-
+@media (max-width: 600px) {
   .desktop-header {
     background-image: none;
   }
@@ -639,5 +631,4 @@
   .get-in-touch-last {
     background-image: none;
   }
-
 }
