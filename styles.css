@@ -528,6 +528,92 @@
     text-align: center;
     color: #172b4d;
   }
+
+  .indicator-button {
+    display: none;
+  }
+
+  .works-projects {
+    display: grid;
+    grid-template: '369px 369px 369px' '369px 369px 369px';
+    row-gap: 32px;
+    column-gap: 24px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .about-me-headline {
+    margin-top: 108px;
+  }
+
+  .about-me-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #42526e;
+    max-width: 920px;
+    height: 96px;
+    margin-top: 24px;
+  }
+
+  .about-me-other {
+    display: grid;
+    grid-template: '369px 369px 369px';
+    column-gap: 24px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .about-me-article {
+    margin-bottom: 0px;
+    bottom: 0px;
+  }
+
+  .contact-form {
+    display: grid;
+    grid-template: '463px 648px';
+    column-gap: 24px;
+    margin-left: 135px;
+    margin-right: 134px;
+    height: 490px;
+    margin-top: 84px;
+    justify-content: center;
+    align-content: center;
+    
+  }
+
+  .contact-form h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 52px;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+    flex-grow: 0;
+    min-width: 463px;
+    height: 256px;
+    margin-top: 80px;
+    margin-bottom: 154px;
+  }
+
+  .contact-me-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 0;
+  }
+
+  .my-email {
+    display: none;
+  }
+
+
 }
 
 @media (max-width:600px) {
