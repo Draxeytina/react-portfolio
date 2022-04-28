@@ -582,7 +582,6 @@
     margin-top: 84px;
     justify-content: center;
     align-content: center;
-    
   }
 
   .contact-form h3 {
@@ -607,6 +606,12 @@
     flex-direction: column;
     align-items: flex-start;
     margin-top: 0;
+  }
+
+  .get-in-touch-last {
+    background-image: url("/images/illustration-contact-form-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .my-email {
