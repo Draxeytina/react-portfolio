@@ -574,8 +574,8 @@
 
   .contact-form {
     display: grid;
-    grid-template: '463px 648px';
-    column-gap: 24px;
+    grid-template: '463px 672px';
+    column-gap: 12px;
     margin-left: 135px;
     margin-right: 134px;
     height: 490px;
@@ -606,6 +606,20 @@
     flex-direction: column;
     align-items: flex-start;
     margin-top: 0;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  #email-input {
+    min-width: 500px;
+  }
+
+  #textarea-input {
+    min-width: 500px;
+  }
+
+  #full-name-input {
+    min-width: 500px;
   }
 
   .get-in-touch-last {
