@@ -441,7 +441,7 @@
   }
 
   .about-heading1 {
-    margin-top: 0px;
+    margin-top: 0;
   }
 
   .desktop-navbar-header ul {
@@ -449,7 +449,7 @@
     grid-template-columns: 87px 69px 83px;
     padding: 10px 12px;
     list-style: none;
-    margin: 0px 8px;
+    margin: 0 8px;
     justify-content: center;
     font-family: 'Inter';
     font-style: normal;
@@ -472,7 +472,7 @@
     line-height: 60px;
     text-align: center;
     letter-spacing: 0.37px;
-    margin: 0px;
+    margin: 0;
     margin-top: 88px;
   }
 
@@ -483,9 +483,9 @@
     font-size: 48px;
     text-align: center;
     letter-spacing: 0.37px;
-    margin: 0px;
-    bottom: 0px;
-    margin-bottom: 0px;
+    margin: 0;
+    bottom: 0;
+    margin-bottom: 0;
   }
 
   .about-text {
@@ -495,21 +495,21 @@
     font-weight: 400;
     font-size: 20px;
     text-align: center;
-    color: #172B4D;
+    color: #172b4d;
     display: flex;
     justify-items:center;
     padding-left: 260px;
     padding-right: 260px;
     margin-top: 24px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     padding-bottom: 0;
   }
 
   .social-media {
     display: grid;
     grid-template-columns: 40px 40px 40px 40px 40px;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     justify-content: center;
   }
 
@@ -568,8 +568,8 @@
   }
 
   .about-me-article {
-    margin-bottom: 0px;
-    bottom: 0px;
+    margin-bottom: 0;
+    bottom: 0;
   }
 
   .contact-form {
@@ -618,10 +618,10 @@
     display: none;
   }
 
-
 }
 
 @media (max-width:600px) {
+  
   .desktop-header {
     background-image: none;
   }
