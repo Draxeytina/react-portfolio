@@ -117,7 +117,20 @@
   padding-left: 26px;
   padding-right: 22px;
   justify-content: center;
+      border-style: solid;
+      border-width: 1px;
+      display: block;
+      background-color: #0000FF;
+      transition: width 2s, height 2s, background-color 2s, transform 2s;
+  }
+  
+  #animation :hover {
+      background-color: #FFCCCC;
+      width: 200px;
+      height: 200px;
+      transform: rotate(180deg);
 }
+
 
 .indicator-button {
   display: flex;
@@ -264,6 +277,9 @@
   width: 159px;
   height: 48px;
   margin-bottom: 59px;
+}
+
+
 }
 
 .about-me-other {
@@ -418,9 +434,6 @@
   background-position: 425px 635px;
 }
 
-.highlight:hover {
-  background-color: rgb(6, 6, 41) !important;
-}
 
 @media (min-width: 768px) {
   .desktop-header {
@@ -644,5 +657,11 @@
 
   .get-in-touch-last {
     background-image: none;
-  }
+ 
+    }
+  
+  
+      
+       
+
 }
