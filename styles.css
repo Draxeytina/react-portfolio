@@ -9,17 +9,17 @@
   padding-right: 26px;
 }
 
-#animations { 
-  width:fit-content;
+#animations {
+  width: fit-content;
   color: #3a4a42;
   animation-name: example;
   animation-duration: 3s;
-  animation-iteration-count: infinite; 
+  animation-iteration-count: infinite;
 }
 
 @keyframes example {
-  from {color: #172b4d;}
-  to {color: rgb(54, 179, 126);}
+  from { color: #172b4d; }
+  to { color: rgb(54, 179, 126); }
 }
 
 .highlight:hover {
@@ -143,7 +143,6 @@
   padding-right: 22px;
   justify-content: center;
 }
-
 
 .indicator-button {
   display: flex;
@@ -444,7 +443,6 @@
   background-position: 425px 635px;
 }
 
-
 @media (min-width: 768px) {
   .desktop-header {
     background-image: url("/images/Header-llustration-desktop.svg");
@@ -667,11 +665,5 @@
 
   .get-in-touch-last {
     background-image: none;
- 
-    }
-  
-  
-      
-       
-
+  }
 }
