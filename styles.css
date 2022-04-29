@@ -9,6 +9,31 @@
   padding-right: 26px;
 }
 
+#animations {
+  width: fit-content;
+  color: #3a4a42;
+  animation-name: example;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  from { color: #172b4d; }
+  to { color: rgb(54, 179, 126); }
+}
+
+.highlight:hover {
+  background-color: rgb(6, 6, 41) !important;
+}
+
+.highlight-background:hover {
+  font-size: 120%;
+}
+
+.highlight-background2:hover {
+  font-size: 200%;
+}
+
 .main-header {
   position: absolute;
   left: 0;
@@ -416,10 +441,6 @@
   background-image: url("/images/illustration-contact-form.svg");
   background-repeat: no-repeat;
   background-position: 425px 635px;
-}
-
-.highlight:hover {
-  background-color: rgb(6, 6, 41) !important;
 }
 
 @media (min-width: 768px) {
