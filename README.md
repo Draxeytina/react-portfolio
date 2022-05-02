@@ -8,7 +8,7 @@ This is a mobile website that has information on my past and current projects.
 
 ## See Project
 Follow the link to view the project:
-https://draxeytina.github.io/Portfolio-trial/
+
 
 ## Getting Started
 You may setup the project on your local machine using the following steps:
