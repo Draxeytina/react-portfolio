@@ -1,4 +1,4 @@
-# My Portfolio Website 🌐
+# My Portfolio 
 This is a mobile website that has information on my past and current projects.
 
 ## Built With
@@ -6,8 +6,9 @@ This is a mobile website that has information on my past and current projects.
 - CSS3
 - Flexbox
 
-## See Project
+## See Project 🌐
 Follow the link to view the project:
+
 https://draxeytina.github.io/Portfolio-trial/
 
 ## Getting Started
