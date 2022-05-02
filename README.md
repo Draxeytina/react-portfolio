@@ -38,5 +38,5 @@ I appreciate the efforts of:
 * My mentor (Axel)
 * My coding partners (Frederick and Addisu)
 * The morning session team 
-* The code reviewers especially Tekle 
+* The code reviewers 
 - Thank you 🙏
