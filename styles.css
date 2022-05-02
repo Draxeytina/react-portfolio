@@ -1,5 +1,5 @@
 .about-container {
-  background-image: url(/images/header-illsutration-mobile@2x.svg);
+  background-image: url("./images/header-illsutration-mobile@2x.svg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -244,7 +244,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(/images/illustration-2-about-me-mobile.svg);
+  background-image: url("./images/illustration-2-about-me-mobile.svg");
   background-repeat: no-repeat;
   background-position: 0 233px;
 }
@@ -438,14 +438,14 @@
 }
 
 .contact-form {
-  background-image: url("/images/illustration-contact-form.svg");
+  background-image: url("./images/illustration-contact-form.svg");
   background-repeat: no-repeat;
   background-position: 425px 635px;
 }
 
 @media (min-width: 768px) {
   .desktop-header {
-    background-image: url("/images/Header-llustration-desktop.svg");
+    background-image: url("./images/Header-llustration-desktop.svg");
     background-repeat: no-repeat;
     left: 27px;
     top: -398px;
@@ -460,7 +460,7 @@
   }
 
   .about-me {
-    background-image: url(/images/illustration-about-me-desktop.png);
+    background-image: url("./images/illustration-about-me-desktop.png");
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -644,7 +644,7 @@
   }
 
   .get-in-touch-last {
-    background-image: url("/images/illustration-contact-form-2.png");
+    background-image: url("./images/illustration-contact-form-2.png");
     background-repeat: no-repeat;
     background-size: cover;
   }
