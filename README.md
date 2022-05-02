@@ -8,7 +8,7 @@ This is a mobile website that has information on my past and current projects.
 
 ## See Project
 Follow the link to view the project:
-https://github.com/Draxeytina/Portfolio-trial
+https://draxeytina.github.io/Portfolio-trial/
 
 ## Getting Started
 You may setup the project on your local machine using the following steps:
@@ -17,6 +17,8 @@ You may setup the project on your local machine using the following steps:
 - Get into the directory you want this folder to appear
 - Type 'git clone git@github.com:Draxeytina/Portfolio-trial.git'
 - Open index.html file and open it with live server in your preferred editor
+
+Optionally you can follow the link under see project above ☝️
 
 ## Author 🖋️
 👤 Tinashe Timothy Murambinda
