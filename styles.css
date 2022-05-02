@@ -1,5 +1,5 @@
 .about-container {
-  background-image: url("./images/header-illsutration-mobile@2x.svg");
+  background-image: url(/images/header-illsutration-mobile@2x.svg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
