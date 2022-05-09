@@ -4,18 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./test.js"></script>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+    <title>Portfolio</title>
 </head>
 <body>
     <section class="desktop-header">
         <header class="main-header">
             <nav class="navbar-header">
                 <ul>
-                    <li><p class="welcome-text">Welcome</p></li>
-                    <li><img class="burger" src="./images/Union.svg" alt=""></li>
+                    <li><p class="welcome-text" id="welcome-top">Welcome</p></li>
+                    <div class="menu-items" id="menu-item">
+                        <a href="#portfolio-link">Portfolio</a>
+                        <a href="#about-link">About</a>
+                        <a href="#contact-link">Contact</a>
+                    </div>
+                    <!-- <a href="javascript:void(0);" onclick="myFunction()"><img class="burger" src="./images/Union.svg" alt=""></a> -->
+                    <a href="javascript:void(0);" onclick="myFunction()">
+                        <i class="fa fa-bars burger"></i>
+                    </a>
+                   
                 </ul>
             </nav>
         </header>
@@ -28,9 +40,9 @@
                 </ul>
             </nav>
         </header>
-        <div class="about-container">
+        <div class="about-container" id="about-container-top">
             <section class="summary-section">
-                <h1 class="alignment about-heading1">Hey there. I’m Tinashe</h1>
+                <h1 class="alignment about-heading1" id="about-heading-1">Hey there. I’m Tinashe</h1>
                 <h2 class="alignment about-heading2">I'm a software developer</h2>
                 <p class="alignment about-text" id="animations">  I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
                     don’t hestiate to contact me.</p>
@@ -58,7 +70,7 @@
         </div>
     </section>
     <section class="works">
-        <h3 class="works-headline">My Recent Works</h3>
+        <h3 class="works-headline" id="portfolio-link">My Recent Works</h3>
         <a class="indicator-button">
             <img src="./images/Indicator.svg" alt="">
         </a>        
@@ -162,7 +174,7 @@
          </article>
     </section>
     <section class="about-me">
-        <h3 class="about-me-headline">About me</h3>
+        <h3 class="about-me-headline" id="about-link">About me</h3>
         <p class="about-me-text">I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
             don’t hestiate to contact me.</p>
         <button class="get-my-resume highlight" type="button">Get My Resume</button>
@@ -219,7 +231,7 @@
             </section>
         </article>
     </section>
-    <section class="get-in-touch-last">
+    <section class="get-in-touch-last" id="contact-link">
         <section class="contact-form">
             <h3 class="about-me-headline">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h3>
             <form class="contact-me-form" action="https://formspree.io/f/xgedpkeq" method="post">
