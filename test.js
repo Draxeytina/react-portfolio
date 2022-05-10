@@ -15,7 +15,7 @@ function myFunction() {
   } else {
     y.className = 'menu-items';
   }
-  let icon = document.getElementsByClassName('fa-bars')[0];
+  const icon = document.getElementsByClassName('fa-bars')[0];
   if (icon) {
     icon.className = icon.className.replace('fa-bars', 'fa-times');
   } else {
