@@ -22,6 +22,7 @@
   from {
     color: #172b4d;
   }
+
   to {
     color: rgb(54, 179, 126);
   }
@@ -176,7 +177,6 @@
 }
 
 .inner-project-2-1 {
-  grid-area: 'article1-2';
   display: flex;
   flex-direction: column;
   width: 327px;
@@ -673,7 +673,6 @@
   }
 
   .menu-items {
-    display: flex;
     flex-direction: column;
     margin-top: 32px;
     margin-left: 28px;
