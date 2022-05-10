@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 function myFunction() {
   // make mobile nav list disappear and appear
-  const z = document.getElementById('welcome-top');
+  
   const x = document.getElementById('menu-item');
   if (x.style.display === 'flex') {
     x.style.display = 'none';
@@ -16,19 +16,19 @@ function myFunction() {
   } else {
     y.className = 'menu-items';
   }
-  const icon = document.getElementsByClassName('fa-bars')[0];
+  let icon = document.getElementsByClassName('fa-bars')[0];
   if (icon) {
     icon.className = icon.className.replace('fa-bars', 'fa-times');
   } else {
-    document.getElementsByClassName('fa-times')[0] = icon;
+    icon = document.getElementsByClassName('fa-times')[0];
     icon.className = icon.className.replace('fa-times', 'fa-bars');
   }
 
   // make the welcome text invisible when mobile menu appear
+  const z = document.getElementById('welcome-top');
   if (z.style.display === 'none') {
     z.style.display = 'flex';
   } else {
     z.style.display = 'none';
   }
 }
-/* eslint-enable no-unused-vars */
