@@ -7,6 +7,7 @@
 
 .burger {
   padding-right: 26px;
+  display: block;
 }
 
 #animations {
@@ -18,8 +19,13 @@
 }
 
 @keyframes example {
-  from { color: #172b4d; }
-  to { color: rgb(54, 179, 126); }
+  from {
+    color: #172b4d;
+  }
+
+  to {
+    color: rgb(54, 179, 126);
+  }
 }
 
 .highlight:hover {
@@ -57,7 +63,7 @@
   margin-top: 92px;
   margin-left: 24px;
   margin-right: 24px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -67,7 +73,7 @@
 
 .about-heading2 {
   display: flex;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -132,7 +138,7 @@
   text-align: center;
   margin-left: 24px;
   margin-right: 24px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -171,7 +177,6 @@
 }
 
 .inner-project-2-1 {
-  grid-area: "article1-2";
   display: flex;
   flex-direction: column;
   width: 327px;
@@ -183,7 +188,7 @@
 }
 
 .project-title {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -208,7 +213,7 @@
   height: 32px;
   border-radius: 4px;
   border-style: none;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -232,7 +237,7 @@
   left: 92px;
   background-color: #36b37f;
   border-radius: 4px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -244,14 +249,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("./images/illustration-2-about-me-mobile.svg");
+  background-image: url('./images/illustration-2-about-me-mobile.svg');
   background-repeat: no-repeat;
   background-position: 0 233px;
 }
 
 .about-me-text {
   position: static;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -265,7 +270,7 @@
   text-align: center;
   margin-left: 24px;
   margin-right: 24px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -280,7 +285,7 @@
   letter-spacing: 0.03em;
   background-color: #36b37f;
   border-radius: 4px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -319,7 +324,7 @@
   text-align: center;
   margin-left: 24px;
   margin-right: 24px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -348,7 +353,7 @@
   height: 40px;
   background-color: #fff;
   border-radius: 8px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -438,14 +443,14 @@
 }
 
 .contact-form {
-  background-image: url("./images/illustration-contact-form.svg");
+  background-image: url('./images/illustration-contact-form.svg');
   background-repeat: no-repeat;
   background-position: 425px 635px;
 }
 
 @media (min-width: 768px) {
   .desktop-header {
-    background-image: url("./images/Header-llustration-desktop.svg");
+    background-image: url('./images/Header-llustration-desktop.svg');
     background-repeat: no-repeat;
     left: 27px;
     top: -398px;
@@ -460,7 +465,7 @@
   }
 
   .about-me {
-    background-image: url("./images/illustration-about-me-desktop.png");
+    background-image: url('./images/illustration-about-me-desktop.png');
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -644,7 +649,7 @@
   }
 
   .get-in-touch-last {
-    background-image: url("./images/illustration-contact-form-2.png");
+    background-image: url('./images/illustration-contact-form-2.png');
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -665,5 +670,44 @@
 
   .get-in-touch-last {
     background-image: none;
+  }
+
+  .menu-items {
+    flex-direction: column;
+    align-content: flex-start;
+    margin-top: 32px;
+    margin-left: 28px;
+    display: none;
+    justify-content: flex-start;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    color: #28352f;
+    height: 90vh;
+    text-align: left;
+    width: 100%;
+    background-color: white;
+  }
+
+  .menu-items a {
+    text-decoration: none;
+    color: #3a4a42;
+    font-weight: 600;
+    font-size: 32px;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    background-color: white;
+    padding-bottom: 40px;
+  }
+
+  .burger {
+    color: black;
+  }
+
+  .close-btn {
+    display: none;
+    padding-right: 21px;
   }
 }

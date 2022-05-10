@@ -1,254 +1,462 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">    <title>Portfolio</title>
-</head>
-<body>
-    <section class="desktop-header">
-        <header class="main-header">
-            <nav class="navbar-header">
-                <ul>
-                    <li><p class="welcome-text">Welcome</p></li>
-                    <li><img class="burger" src="./images/Union.svg" alt=""></li>
-                </ul>
-            </nav>
-        </header>
-        <header class="desktop-main-header">
-            <nav class="desktop-navbar-header">
-                <ul>
-                    <li class="highlight-background"><p class="desktop-navbar-header">Portfolio</p></li>
-                    <li class="highlight-background"><p class="desktop-navbar-header">About</p></li>
-                    <li class="highlight-background"><p class="desktop-navbar-header">Contact</p></li>
-                </ul>
-            </nav>
-        </header>
-        <div class="about-container">
-            <section class="summary-section">
-                <h1 class="alignment about-heading1">Hey there. I’m Tinashe</h1>
-                <h2 class="alignment about-heading2">I'm a software developer</h2>
-                <p class="alignment about-text" id="animations">  I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
-                    don’t hestiate to contact me.</p>
-            </section>
-            <ul class="social-media">
-                <li class="twitter highlight-background2">
-                    <a><img src="./images/twitter.svg" alt=""></a>
-                </li>
-                <li class="linkedin highlight-background2">
-                    <a><img src="./images/Linkedin.svg" alt=""></a>
-                </li>
-                <li class="medium highlight-background2">
-                    <a><img src="./images/medium.svg" alt=""></a>
-                </li>
-                <li class="github highlight-background2">
-                    <a><img src="./images/github.svg" alt=""></a>
-                </li>
-                <li class="angellist highlight-background2">
-                    <a><img src="./images/angellist.svg" alt=""></a>
-                </li>
-            </ul>
-            <a class="normal-button">
-                <img src="./images/Disabled.svg" alt="">
-            </a>
-        </div>
-    </section>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./test.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="desktop-header">
+      <header class="main-header">
+        <nav class="navbar-header">
+          <ul>
+            <li><p class="welcome-text" id="welcome-top">Welcome</p></li>
+            <li class="menu-items" id="menu-item">
+              <a href="#portfolio-link">Portfolio</a>
+              <a href="#about-link">About</a>
+              <a href="#contact-link">Contact</a>
+            </li>
+            <li><a id="open-btn" class="open-btn" href="javascript:void(0);" onclick="myFunction()">
+                  <i class="fa fa-bars burger"></i>
+                </a>
+                <a class="close-btn" id="close-btn" href="javascript:void(0);" onclick="myFunction2()">
+                  <img src="./images/hamburgerclose.svg" alt="close menu">
+                </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <header class="desktop-main-header">
+        <nav class="desktop-navbar-header">
+          <ul>
+            <li class="highlight-background">
+              <p class="desktop-navbar-header">Portfolio</p>
+            </li>
+            <li class="highlight-background">
+              <p class="desktop-navbar-header">About</p>
+            </li>
+            <li class="highlight-background">
+              <p class="desktop-navbar-header">Contact</p>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <div class="about-container" id="about-container-top">
+        <section class="summary-section">
+          <h1 class="alignment about-heading1" id="about-heading-1">
+            Hey there. I’m Tinashe
+          </h1>
+          <h2 class="alignment about-heading2">I'm a software developer</h2>
+          <p class="alignment about-text" id="animations">
+            I can help you build a product , feature or website Look through
+            some of my work and experience! If you like what you see and have a
+            project you need coded, don’t hestiate to contact me.
+          </p>
+        </section>
+        <ul class="social-media">
+          <li class="twitter highlight-background2">
+            <a><img src="./images/twitter.svg" alt="" /></a>
+          </li>
+          <li class="linkedin highlight-background2">
+            <a><img src="./images/Linkedin.svg" alt="" /></a>
+          </li>
+          <li class="medium highlight-background2">
+            <a><img src="./images/medium.svg" alt="" /></a>
+          </li>
+          <li class="github highlight-background2">
+            <a><img src="./images/github.svg" alt="" /></a>
+          </li>
+          <li class="angellist highlight-background2">
+            <a><img src="./images/angellist.svg" alt="" /></a>
+          </li>
+        </ul>
+        <a class="normal-button">
+          <img src="./images/Disabled.svg" alt="" />
+        </a>
+      </div>
+    </div>
     <section class="works">
-        <h3 class="works-headline">My Recent Works</h3>
-        <a class="indicator-button">
-            <img src="./images/Indicator.svg" alt="">
-        </a>        
+      <h3 class="works-headline" id="portfolio-link">My Recent Works</h3>
+      <a class="indicator-button">
+        <img src="./images/Indicator.svg" alt="" />
+      </a>
     </section>
     <section class="works-projects">
-        <article class="project-1">
-           <section class="inner-project-2-1">
-                <h4 class="project-title">Multi-Post Stories Gain+Glory</h4>
-                <nav class="languages">
-                    <ul>
-                        <li><button class="rubby button-style-1" type="button">Ruby on rails</button></li>
-                        <li><button class="css button-style-1" type="button">css</button></li>
-                        <li><button class="javascript button-style-1" type="button">JavScript</button></li>
-                        <li><button class="html button-style-1" type="button">html</button></li>
-                    </ul>
-                </nav>
-                <nav class="project-link">
-                <button class="see-project-link highlight" type="button">See Project</button>
-                </nav>
-           </section>
-        </article>
-        <article class="project-1 article-2">
-            <section class="inner-project-2-1">
-                <h4 class="project-title">Multi-Post Stories Gain+Glory</h4>
-                <nav class="languages">
-                    <ul>
-                        <li><button class="rubby button-style-1" type="button">Ruby on rails</button></li>
-                        <li><button class="css button-style-1" type="button">css</button></li>
-                        <li><button class="javascript button-style-1" type="button">JavScript</button></li>
-                        <li><button class="html button-style-1" type="button">html</button></li>
-                    </ul>
-                </nav>
-                <nav class="project-link">
-                <button class="see-project-link highlight" type="button">See Project</button>
-                </nav>
-            </section>
-         </article>
-         <article class="project-1 article-3">
-            <section class="inner-project-2-1">
-                <h4 class="project-title">Multi-Post Stories Gain+Glory</h4>
-                <nav class="languages">
-                    <ul>
-                        <li><button class="rubby button-style-1" type="button">Ruby on rails</button></li>
-                        <li><button class="css button-style-1" type="button">css</button></li>
-                        <li><button class="javascript button-style-1" type="button">JavScript</button></li>
-                        <li><button class="html button-style-1" type="button">html</button></li>
-                    </ul>
-                </nav>
-                <nav class="project-link">
-                <button class="see-project-link highlight" type="button">See Project</button>
-                </nav>
-            </section>
-         </article>
-         <article class="project-1 article-4">
-            <section class="inner-project-2-1">
-                <h4 class="project-title">Multi-Post Stories Gain+Glory</h4>
-                <nav class="languages">
-                    <ul>
-                        <li><button class="rubby button-style-1" type="button">Ruby on rails</button></li>
-                        <li><button class="css button-style-1" type="button">css</button></li>
-                        <li><button class="javascript button-style-1" type="button">JavScript</button></li>
-                        <li><button class="html button-style-1" type="button">html</button></li>
-                    </ul>
-                </nav>
-                <nav class="project-link">
-                <button class="see-project-link highlight" type="button">See Project</button>
-                </nav>
-            </section>
-         </article>
-         <article class="project-1 article-5">
-            <section class="inner-project-2-1">
-                <h4 class="project-title">Multi-Post Stories Gain+Glory</h4>
-                <nav class="languages">
-                    <ul>
-                        <li><button class="rubby button-style-1" type="button">Ruby on rails</button></li>
-                        <li><button class="css button-style-1" type="button">css</button></li>
-                        <li><button class="javascript button-style-1" type="button">JavScript</button></li>
-                        <li><button class="html button-style-1" type="button">html</button></li>
-                    </ul>
-                </nav>
-                <nav class="project-link">
-                <button class="see-project-link highlight" type="button">See Project</button>
-                </nav>
-            </section>
-         </article>
-         <article class="project-1 article-6">
-            <section class="inner-project-2-1">
-                <h4 class="project-title">Multi-Post Stories Gain+Glory</h4>
-                <nav class="languages">
-                    <ul>
-                        <li><button class="rubby button-style-1" type="button">Ruby on rails</button></li>
-                        <li><button class="css button-style-1" type="button">css</button></li>
-                        <li><button class="javascript button-style-1" type="button">JavScript</button></li>
-                        <li><button class="html button-style-1" type="button">html</button></li>
-                    </ul>
-                </nav>
-                <nav class="project-link">
-                <button class="see-project-link highlight" type="button">See Project</button>
-                </nav>
-            </section>
-         </article>
+      <div class="project-1">
+        <section class="inner-project-2-1">
+          <h4 class="project-title">Multi-Post Stories Gain+Glory</h4>
+          <nav class="languages">
+            <ul>
+              <li>
+                <button class="rubby button-style-1" type="button">
+                  Ruby on rails
+                </button>
+              </li>
+              <li>
+                <button class="css button-style-1" type="button">css</button>
+              </li>
+              <li>
+                <button class="javascript button-style-1" type="button">
+                  JavScript
+                </button>
+              </li>
+              <li>
+                <button class="html button-style-1" type="button">html</button>
+              </li>
+            </ul>
+          </nav>
+          <nav class="project-link">
+            <button class="see-project-link highlight" type="button">
+              See Project
+            </button>
+          </nav>
+        </section>
+      </div>
+      <article class="project-1 article-2">
+        <section class="inner-project-2-1">
+          <h4 class="project-title">Multi-Post Stories Gain+Glory</h4>
+          <nav class="languages">
+            <ul>
+              <li>
+                <button class="rubby button-style-1" type="button">
+                  Ruby on rails
+                </button>
+              </li>
+              <li>
+                <button class="css button-style-1" type="button">css</button>
+              </li>
+              <li>
+                <button class="javascript button-style-1" type="button">
+                  JavScript
+                </button>
+              </li>
+              <li>
+                <button class="html button-style-1" type="button">html</button>
+              </li>
+            </ul>
+          </nav>
+          <nav class="project-link">
+            <button class="see-project-link highlight" type="button">
+              See Project
+            </button>
+          </nav>
+        </section>
+      </article>
+      <article class="project-1 article-3">
+        <section class="inner-project-2-1">
+          <h4 class="project-title">Multi-Post Stories Gain+Glory</h4>
+          <nav class="languages">
+            <ul>
+              <li>
+                <button class="rubby button-style-1" type="button">
+                  Ruby on rails
+                </button>
+              </li>
+              <li>
+                <button class="css button-style-1" type="button">css</button>
+              </li>
+              <li>
+                <button class="javascript button-style-1" type="button">
+                  JavScript
+                </button>
+              </li>
+              <li>
+                <button class="html button-style-1" type="button">html</button>
+              </li>
+            </ul>
+          </nav>
+          <nav class="project-link">
+            <button class="see-project-link highlight" type="button">
+              See Project
+            </button>
+          </nav>
+        </section>
+      </article>
+      <article class="project-1 article-4">
+        <section class="inner-project-2-1">
+          <h4 class="project-title">Multi-Post Stories Gain+Glory</h4>
+          <nav class="languages">
+            <ul>
+              <li>
+                <button class="rubby button-style-1" type="button">
+                  Ruby on rails
+                </button>
+              </li>
+              <li>
+                <button class="css button-style-1" type="button">css</button>
+              </li>
+              <li>
+                <button class="javascript button-style-1" type="button">
+                  JavScript
+                </button>
+              </li>
+              <li>
+                <button class="html button-style-1" type="button">html</button>
+              </li>
+            </ul>
+          </nav>
+          <nav class="project-link">
+            <button class="see-project-link highlight" type="button">
+              See Project
+            </button>
+          </nav>
+        </section>
+      </article>
+      <article class="project-1 article-5">
+        <section class="inner-project-2-1">
+          <h4 class="project-title">Multi-Post Stories Gain+Glory</h4>
+          <nav class="languages">
+            <ul>
+              <li>
+                <button class="rubby button-style-1" type="button">
+                  Ruby on rails
+                </button>
+              </li>
+              <li>
+                <button class="css button-style-1" type="button">css</button>
+              </li>
+              <li>
+                <button class="javascript button-style-1" type="button">
+                  JavScript
+                </button>
+              </li>
+              <li>
+                <button class="html button-style-1" type="button">html</button>
+              </li>
+            </ul>
+          </nav>
+          <nav class="project-link">
+            <button class="see-project-link highlight" type="button">
+              See Project
+            </button>
+          </nav>
+        </section>
+      </article>
+      <article class="project-1 article-6">
+        <section class="inner-project-2-1">
+          <h4 class="project-title">Multi-Post Stories Gain+Glory</h4>
+          <nav class="languages">
+            <ul>
+              <li>
+                <button class="rubby button-style-1" type="button">
+                  Ruby on rails
+                </button>
+              </li>
+              <li>
+                <button class="css button-style-1" type="button">css</button>
+              </li>
+              <li>
+                <button class="javascript button-style-1" type="button">
+                  JavScript
+                </button>
+              </li>
+              <li>
+                <button class="html button-style-1" type="button">html</button>
+              </li>
+            </ul>
+          </nav>
+          <nav class="project-link">
+            <button class="see-project-link highlight" type="button">
+              See Project
+            </button>
+          </nav>
+        </section>
+      </article>
     </section>
     <section class="about-me">
-        <h3 class="about-me-headline">About me</h3>
-        <p class="about-me-text">I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
-            don’t hestiate to contact me.</p>
-        <button class="get-my-resume highlight" type="button">Get My Resume</button>
+      <h3 class="about-me-headline" id="about-link">About me</h3>
+      <p class="about-me-text">
+        I can help you build a product , feature or website Look through some of
+        my work and experience! If you like what you see and have a project you
+        need coded, don’t hestiate to contact me.
+      </p>
+      <button class="get-my-resume highlight" type="button">
+        Get My Resume
+      </button>
     </section>
     <section class="about-me-other">
-        <article class="about-me-article">
-            <section class="image-area">
-                    <img class="languages-icon" src="./images/icon-languages.svg" alt="">
-            </section>
-            <section class="links-area">
-                <h4 class="link-title">Languages</h4>
-                <nav class="links-area-nav">
-                    <ul>
-                        <li><button class="button-style javascript" type="button">JavaScript</button></li>
-                        <li><button class="button-style ruby" type="button">Ruby</button></li>
-                        <li><button class="button-style html" type="button">HTML</button></li>
-                        <li><button class="button-style css" type="button">CSS</button></li>
-                    </ul>
-                </nav>
-            </section>
-        </article>
-        <article class="about-me-article">
-            <section class="image-area">
-                    <img class="languages-icon" src="./images/icon-frameworks.svg" alt="">
-            </section>
-            <section class="links-area">
-                <h4 class="link-title">Frameworks</h4>
-                <nav class="links-area-nav">
-                    <ul>
-                        <li><button class="button-style bootstrap2" type="button">Bootstrap</button></li>
-                        <li><button class="button-style ruby2" type="button">Ruby on rails</button></li>
-                        <li><button class="button-style rspec2" type="button">RSpec</button></li>
-                        <li><button class="button-style capybara2" type="button">Capybara</button></li>
-                        <li><button class="button-style selenium2" type="button">Selenium</button></li>
-                    </ul>
-                </nav>
-            </section>
-        </article>
-        <article class="about-me-article">
-            <section class="image-area">
-                    <img class="languages-icon" src="./images/icon-skills.svg" alt="">
-            </section>
-            <section class="links-area">
-                <h4 class="link-title">Skills</h4>
-                <nav class="links-area-nav">
-                    <ul>
-                        <li><button class="button-style codekit3" type="button">Codekit</button></li>
-                        <li><button class="button-style github3" type="button">Github</button></li>
-                        <li><button class="button-style codepen3" type="button">Codepen</button></li>
-                        <li><button class="button-style gitlab3" type="button">Gitlab</button></li>
-                        <li><button class="button-style terminal3" type="button">Terminal</button></li>
-                    </ul>
-                </nav>
-            </section>
-        </article>
-    </section>
-    <section class="get-in-touch-last">
-        <section class="contact-form">
-            <h3 class="about-me-headline">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h3>
-            <form class="contact-me-form" action="https://formspree.io/f/xgedpkeq" method="post">
-                <input id="full-name-input" type="text" name="full-name" placeholder="Full name" required maxlength="30">
-                <input id="email-input" type="email" name="email" pattern="+@globex\.com" placeholder="Email address" minlength="6" required>
-                <textarea id="textarea-input" name="message" maxlength="500" placeholder="Enter text here" required></textarea> 
-                <button class="get-my-resume button-input highlight" type="submit">Get in touch</button>
-            </form>
+      <article class="about-me-article">
+        <section class="image-area">
+          <img
+            class="languages-icon"
+            src="./images/icon-languages.svg"
+            alt=""
+          />
         </section>
+        <section class="links-area">
+          <h4 class="link-title">Languages</h4>
+          <nav class="links-area-nav">
+            <ul>
+              <li>
+                <button class="button-style javascript" type="button">
+                  JavaScript
+                </button>
+              </li>
+              <li>
+                <button class="button-style ruby" type="button">Ruby</button>
+              </li>
+              <li>
+                <button class="button-style html" type="button">HTML</button>
+              </li>
+              <li>
+                <button class="button-style css" type="button">CSS</button>
+              </li>
+            </ul>
+          </nav>
+        </section>
+      </article>
+      <article class="about-me-article">
+        <section class="image-area">
+          <img
+            class="languages-icon"
+            src="./images/icon-frameworks.svg"
+            alt=""
+          />
+        </section>
+        <section class="links-area">
+          <h4 class="link-title">Frameworks</h4>
+          <nav class="links-area-nav">
+            <ul>
+              <li>
+                <button class="button-style bootstrap2" type="button">
+                  Bootstrap
+                </button>
+              </li>
+              <li>
+                <button class="button-style ruby2" type="button">
+                  Ruby on rails
+                </button>
+              </li>
+              <li>
+                <button class="button-style rspec2" type="button">RSpec</button>
+              </li>
+              <li>
+                <button class="button-style capybara2" type="button">
+                  Capybara
+                </button>
+              </li>
+              <li>
+                <button class="button-style selenium2" type="button">
+                  Selenium
+                </button>
+              </li>
+            </ul>
+          </nav>
+        </section>
+      </article>
+      <article class="about-me-article">
+        <section class="image-area">
+          <img class="languages-icon" src="./images/icon-skills.svg" alt="" />
+        </section>
+        <section class="links-area">
+          <h4 class="link-title">Skills</h4>
+          <nav class="links-area-nav">
+            <ul>
+              <li>
+                <button class="button-style codekit3" type="button">
+                  Codekit
+                </button>
+              </li>
+              <li>
+                <button class="button-style github3" type="button">
+                  Github
+                </button>
+              </li>
+              <li>
+                <button class="button-style codepen3" type="button">
+                  Codepen
+                </button>
+              </li>
+              <li>
+                <button class="button-style gitlab3" type="button">
+                  Gitlab
+                </button>
+              </li>
+              <li>
+                <button class="button-style terminal3" type="button">
+                  Terminal
+                </button>
+              </li>
+            </ul>
+          </nav>
+        </section>
+      </article>
+    </section>
+    <section class="get-in-touch-last" id="contact-link">
+      <section class="contact-form">
+        <h3 class="about-me-headline">
+          I'm always interested in hearing about new projects, so if you'd like
+          to chat please get in touch.
+        </h3>
+        <form
+          class="contact-me-form"
+          action="https://formspree.io/f/xgedpkeq"
+          method="post"
+        >
+          <input
+            id="full-name-input"
+            type="text"
+            name="full-name"
+            placeholder="Full name"
+            required
+            maxlength="30"
+          />
+          <input
+            id="email-input"
+            type="email"
+            name="email"
+            pattern="+@globex\.com"
+            placeholder="Email address"
+            minlength="6"
+            required
+          />
+          <textarea
+            id="textarea-input"
+            name="message"
+            maxlength="500"
+            placeholder="Enter text here"
+            required
+          ></textarea>
+          <button class="get-my-resume button-input highlight" type="submit">
+            Get in touch
+          </button>
+        </form>
+      </section>
     </section>
     <footer>
-        <ul class="social-media">
-            <li class="twitter">
-                <a><img src="./images/twitter.svg" alt=""></a>
-            </li>
-            <li class="linkedin">
-                <a><img src="./images/Linkedin.svg" alt=""></a>
-            </li>
-            <li class="medium">
-                <a><img src="./images/medium.svg" alt=""></a>
-            </li>
-            <li class="github">
-                <a><img src="./images/github.svg" alt=""></a>
-            </li>
-            <li class="angellist">
-                <a><img src="./images/angellist.svg" alt=""></a>
-            </li>
-        </ul>
-        <p class="my-email">tmurambinda01@gmail.com</p>
+      <ul class="social-media">
+        <li class="twitter">
+          <a><img src="./images/twitter.svg" alt="" /></a>
+        </li>
+        <li class="linkedin">
+          <a><img src="./images/Linkedin.svg" alt="" /></a>
+        </li>
+        <li class="medium">
+          <a><img src="./images/medium.svg" alt="" /></a>
+        </li>
+        <li class="github">
+          <a><img src="./images/github.svg" alt="" /></a>
+        </li>
+        <li class="angellist">
+          <a><img src="./images/angellist.svg" alt="" /></a>
+        </li>
+      </ul>
+      <p class="my-email">tmurambinda01@gmail.com</p>
     </footer>
-</body>
+  </body>
 </html>
