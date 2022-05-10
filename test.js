@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 function myFunction() {
   // make mobile nav list disappear and appear
   const z = document.getElementById('welcome-top');
@@ -30,3 +31,4 @@ function myFunction() {
     z.style.display = 'none';
   }
 }
+/* eslint-enable no-unused-vars */
