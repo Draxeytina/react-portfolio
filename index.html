@@ -16,6 +16,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <title>Portfolio</title>
   </head>
   <body>
@@ -29,8 +31,11 @@
               <a href="#about-link">About</a>
               <a href="#contact-link">Contact</a>
             </li>
-            <li><a href="javascript:void(0);" onclick="myFunction()">
-                    <i class="fa fa-bars burger"></i>
+            <li><a id="open-btn" class="open-btn" href="javascript:void(0);" onclick="myFunction()">
+                  <i class="fa fa-bars burger"></i>
+                </a>
+                <a class="close-btn" id="close-btn" href="javascript:void(0);" onclick="myFunction2()">
+                  <img src="./images/hamburgerclose.svg" alt="close menu">
                 </a>
             </li>
           </ul>

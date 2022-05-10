@@ -674,16 +674,17 @@
 
   .menu-items {
     flex-direction: column;
+    align-content: flex-start;
     margin-top: 32px;
     margin-left: 28px;
     display: none;
-    justify-content: center;
+    justify-content: flex-start;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 32px;
     color: #28352f;
-    height: 40px;
+    height: 90vh;
     text-align: left;
     width: 100%;
     background-color: white;
@@ -691,21 +692,22 @@
 
   .menu-items a {
     text-decoration: none;
-    background-color: white;
     color: #3a4a42;
     font-weight: 600;
     font-size: 32px;
-    line-height: 44px;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    background-color: white;
+    padding-bottom: 40px;
   }
 
   .burger {
     color: black;
   }
 
-  .fa-times {
-    color: #93a79d;
-    width: 50px;
-    height: 50px;
-    border: 2px black solid;
+  .close-btn {
+    display: none;
+    padding-right: 21px;
   }
 }
