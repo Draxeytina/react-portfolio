@@ -19,7 +19,7 @@ function myFunction() {
   if (icon) {
     icon.className = icon.className.replace('fa-bars', 'fa-times');
   } else {
-    icon = document.getElementsByClassName('fa-times')[0];
+    document.getElementsByClassName('fa-times')[0] = icon;
     icon.className = icon.className.replace('fa-times', 'fa-bars');
   }
 
