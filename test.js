@@ -1,7 +1,6 @@
 /* eslint-disable no-unused-vars */
 function myFunction() {
   // make mobile nav list disappear and appear
-  
   const x = document.getElementById('menu-item');
   if (x.style.display === 'flex') {
     x.style.display = 'none';
