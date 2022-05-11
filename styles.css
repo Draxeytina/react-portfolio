@@ -1129,4 +1129,9 @@
     display: flex;
     list-style: none;
   }
+
+  .see-project:hover {
+    background-color: #36b37e;
+    color: #fff;
+  }
 }
