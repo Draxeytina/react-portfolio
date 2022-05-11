@@ -61,7 +61,7 @@ function myFunction2() {
   }
 }
 
-//pop up window
+//my works object 
 
 const object = [
   {
