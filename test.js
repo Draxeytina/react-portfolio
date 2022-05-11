@@ -61,7 +61,7 @@ function myFunction2() {
   }
 }
 
-//my works object 
+// my works object
 
 const object = [
   {
@@ -72,7 +72,7 @@ const object = [
     technologies: ['css', 'Javascript', 'Ruby on Rails'],
     techMain: ['css', 'Javascript', 'html'],
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
- },
+  },
   {
     name: 'My Second Project',
     title: 'Multi-Post Stories Gain+Glory 2',
@@ -145,7 +145,7 @@ for (let i = 0; i < object.length; i += 1) {
 
 container.appendChild(works);
 
-//code the pop up buttons
+// code the pop up buttons
 const projectBtns = document.querySelectorAll('.see-project');
 const body = document.getElementById('body');
 
