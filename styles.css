@@ -864,6 +864,21 @@
     display: flex;
     list-style: none;
   }
+
+  .error-msg {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: red;
+    display: flex;
+    align-items: center;
+  }
+
+  .sub-flex {
+    display: flex;
+    align-content: center;
+  }
 }
 
 /* mobile media query */
@@ -1129,5 +1144,18 @@
   .see-project:hover {
     background-color: #36b37e;
     color: #fff;
+  }
+
+  .error-msg {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    color: red;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 0;
   }
 }
