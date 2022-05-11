@@ -687,9 +687,9 @@
   .multi {
     background-color: white;
   }
-  
+
   .multi-post-title {
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
@@ -707,7 +707,7 @@
   .languages {
     position: static;
     margin-right: 8px;
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
@@ -720,14 +720,14 @@
     height: 32px;
   }
 
-    .see-project {
+  .see-project {
     background: #26815b;
     border-radius: 4px;
     width: 122px;
     height: 48px;
     top: 12px;
     left: 12px;
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     color: white;
     font-weight: 500;
     font-size: 17px;
@@ -737,6 +737,11 @@
     margin-left: auto;
     margin-right: auto;
     border: none;
+  }
+
+  .see-project:hover {
+    background-color: #36b37e;
+    color: #fff;
   }
 
   .overlay {
@@ -788,7 +793,7 @@
   }
 
   #name {
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 32px;
@@ -805,7 +810,7 @@
     border-radius: 4px;
     width: 122px;
     height: 48px;
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     color: white;
     font-weight: 500;
     font-size: 17px;
@@ -821,7 +826,7 @@
 
   .technologies-buttons {
     margin: 0 4px 0 4px;
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
@@ -836,7 +841,7 @@
   }
 
   .lorem {
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -943,7 +948,7 @@
   }
 
   .multi-post-title {
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
@@ -961,7 +966,7 @@
   .languages {
     position: static;
     margin-right: 8px;
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
@@ -982,7 +987,7 @@
     height: 48px;
     top: 12px;
     left: 12px;
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     color: white;
     font-weight: 500;
     font-size: 17px;
@@ -1043,7 +1048,7 @@
   }
 
   #name {
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 32px;
@@ -1065,7 +1070,7 @@
 
   .technologies-buttons {
     margin: 0 4px 0 4px;
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
@@ -1080,7 +1085,7 @@
   }
 
   .lorem {
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -1099,7 +1104,7 @@
     border-radius: 4px;
     width: 122px;
     height: 48px;
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     color: white;
     font-weight: 500;
     font-size: 17px;
