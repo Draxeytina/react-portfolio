@@ -6,12 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LB7J1PKYX8"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-LB7J1PKYX8"
+    ></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-LB7J1PKYX8');
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-LB7J1PKYX8');
     </script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -23,8 +28,17 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
     <title>Portfolio</title>
   </head>
   <body id="body">
@@ -38,12 +52,23 @@
               <a href="#about-link">About</a>
               <a href="#contact-link">Contact</a>
             </li>
-            <li><a id="open-btn" class="open-btn" href="javascript:void(0);" onclick="myFunction()">
-                  <i class="fa fa-bars burger"></i>
-                </a>
-                <a class="close-btn" id="close-btn" href="javascript:void(0);" onclick="myFunction2()">
-                  <img src="./images/hamburgerclose.svg" alt="close menu">
-                </a>
+            <li>
+              <a
+                id="open-btn"
+                class="open-btn"
+                href="javascript:void(0);"
+                onclick="myFunction()"
+              >
+                <i class="fa fa-bars burger"></i>
+              </a>
+              <a
+                class="close-btn"
+                id="close-btn"
+                href="javascript:void(0);"
+                onclick="myFunction2()"
+              >
+                <img src="./images/hamburgerclose.svg" alt="close menu" />
+              </a>
             </li>
           </ul>
         </nav>
@@ -103,8 +128,7 @@
         <img src="./images/Indicator.svg" alt="" />
       </a>
     </section>
-    <section class="works-projects" id="whole-works-section">
-    </section>
+    <section class="works-projects" id="whole-works-section"></section>
     <section class="about-me">
       <h3 class="about-me-headline" id="about-link">About me</h3>
       <p class="about-me-text">
@@ -234,6 +258,7 @@
           class="contact-me-form"
           action="https://formspree.io/f/xgedpkeq"
           method="post"
+          id="contact-form-id"
         >
           <input
             id="full-name-input"
@@ -256,12 +281,17 @@
             id="textarea-input"
             name="message"
             maxlength="500"
-            placeholder="Enter text here"
+            placeholder="Enter your message here"
             required
           ></textarea>
-          <button class="get-my-resume button-input highlight" type="submit">
-            Get in touch
-          </button>
+          <div class="sub-flex">
+            <button class="get-my-resume button-input highlight" type="submit">
+              Get in touch
+            </button>
+            <div id="div-error">
+              <p class="error-msg" id="error-msg"></p>
+            </div>
+          </div>
         </form>
       </section>
     </section>
