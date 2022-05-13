@@ -234,3 +234,36 @@ form.addEventListener('submit', (e) => {
     errorMsg.textContent = '*Email must be in lower case';
   }
 });
+
+// Store data in local storage
+const username = document.getElementById('full-name-input');
+const message = document.getElementById('textarea-input');
+const formButton = document.getElementById('formButton');
+
+function storeData() {
+  const nameValue = username.value;
+  const mailValue = emailForm.value;
+  const messageValue = message.value;
+  const user = {
+    nameValue,
+    mailValue,
+    messageValue,
+  };
+  if (nameValue && mailValue && messageValue) {
+    const stringedUser = JSON.stringify(user);
+    localStorage.setItem('user', stringedUser);
+  }
+}
+
+formButton.addEventListener('click', storeData);
+username.addEventListener('keyup', storeData);
+emailForm.addEventListener('keyup', storeData);
+message.addEventListener('keyup', storeData);
+
+// Load local storage data onto form
+if (localStorage.getItem('user')) {
+  const user = JSON.parse(localStorage.getItem('user'));
+  username.value = user.nameValue;
+  emailForm.value = user.mailValue;
+  message.value = user.messageValue;
+}
