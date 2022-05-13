@@ -257,7 +257,7 @@ form.addEventListener('submit', (e) => {
 
 // Store data in local storage
 const username = document.getElementById('full-name-input');
-const message = document.getElementById('textarea-input');
+const message = document.querySelector('textarea-input');
 const formButton = document.getElementById('formButton');
 
 function storeData() {
