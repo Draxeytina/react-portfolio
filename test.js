@@ -72,7 +72,7 @@ const object = [
     technologies: ['css', 'Javascript', 'Ruby on Rails'],
     techMain: ['Ruby on rails', 'css', 'Javascript', 'html'],
     description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea'
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
   },
   {
     name: 'My Second Project',
@@ -82,7 +82,7 @@ const object = [
     technologies: ['css', 'Javascript', 'Ruby on Rails'],
     techMain: ['Ruby on rails', 'css', 'Javascript', 'html'],
     description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea'
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
   },
   {
     name: 'My Favorite Project',
@@ -92,7 +92,7 @@ const object = [
     technologies: ['Bootstraps', 'Javascript', 'React', 'PHP', 'Codepen'],
     techMain: ['Ruby on rails', 'css', 'Javascript', 'html'],
     description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea'
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
   },
   {
     name: 'The Hardest Project',
@@ -102,7 +102,7 @@ const object = [
     technologies: ['Node.js', 'Javascript', 'Bootstraps'],
     techMain: ['Ruby on rails', 'css', 'Javascript', 'html'],
     description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea'
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
   },
   {
     name: 'Milestone Project',
@@ -112,7 +112,7 @@ const object = [
     technologies: ['css', 'Javascript', 'html'],
     techMain: ['Ruby on rails', 'css', 'Javascript', 'html'],
     description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea'
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
   },
   {
     name: 'Game Project',
@@ -122,8 +122,8 @@ const object = [
     technologies: ['css', 'Javascript', 'html'],
     techMain: ['Ruby on rails', 'css', 'Javascript', 'html'],
     description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea'
-  }
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+  },
 ];
 
 const container = document.getElementById('whole-works-section');
@@ -140,8 +140,8 @@ for (let i = 0; i < object.length; i += 1) {
           <h2 class="multi-post-title">${object[i].title}</h2>
           <section class="buttons">
           ${object[i].techMain
-            .map((language) => `<button class="languages">${language}</button>`)
-            .join('')}
+    .map((language) => `<button class="languages">${language}</button>`)
+    .join('')}
           </section>
           <button class="see-project" id="${i}">See Project ${i + 1}</button>
        </section>
@@ -181,13 +181,13 @@ projectBtns.forEach((button) => {
             <div class="flex-btn">
                 <div>
                     <button onclick= "location.href = '${
-                      object[btnId].demo
-                    }';" class="live">See Live <img src="images/circle.png" alt="See-live-image"></button>
+  object[btnId].demo
+}';" class="live">See Live <img src="images/circle.png" alt="See-live-image"></button>
                 </div>
                 <div>
                     <button onclick= "location.href = '${
-                      object[btnId].source
-                    }';" class="live">Source <img src="images/cat.png" alt="Source-image"></button>
+  object[btnId].source
+}';" class="live">Source <img src="images/cat.png" alt="Source-image"></button>
                 </div>
             </div>
 
@@ -195,10 +195,10 @@ projectBtns.forEach((button) => {
         <div class="buttons-tech">
           <ul class="ul-container">
           ${object[btnId].technologies
-            .map(
-              (language) => `<li class="technologies-buttons">${language}</li>`
-            )
-            .join('')}
+    .map(
+      (language) => `<li class="technologies-buttons">${language}</li>`,
+    )
+    .join('')}
           </ul>
         </div>
         <div>
@@ -207,13 +207,13 @@ projectBtns.forEach((button) => {
         <div class="flex-btn-mob">
             <div>
                 <button onclick= "location.href = '${
-                  object[btnId].demo
-                }';" class="live-mob">See Live <img src="images/circle.png" alt="See-live"></button>
+  object[btnId].demo
+}';" class="live-mob">See Live <img src="images/circle.png" alt="See-live"></button>
             </div>
             <div>
                 <button onclick= "location.href = '${
-                  object[btnId].source
-                }';" class="live-mob">Source <img src="images/cat.png" alt="See-source"></button>
+  object[btnId].source
+}';" class="live-mob">Source <img src="images/cat.png" alt="See-source"></button>
               </div>
           </div>`;
 
@@ -267,7 +267,7 @@ function storeData() {
   const data = {
     nameValue,
     mailValue,
-    messageValue
+    messageValue,
   };
   if (nameValue && mailValue && messageValue) {
     const stringedUser = JSON.stringify(data);
@@ -283,7 +283,7 @@ message.addEventListener('keyup', storeData);
 // Load local storage data onto form
 if (localStorage.getItem('data')) {
   const data = JSON.parse(localStorage.getItem('data'));
-  username.value = user.nameValue;
-  emailForm.value = user.mailValue;
-  message.value = user.messageValue;
+  username.value = data.nameValue;
+  emailForm.value = data.mailValue;
+  message.value = data.messageValue;
 }
