@@ -65,64 +65,76 @@ function myFunction2() {
 
 const object = [
   {
-    name: 'Very First Project',
-    title: 'Multi-Post Stories Gain+Glory 2',
+    name: 'Project 1',
+    title: 'Mellisa - Live Album Launch',
     imgsrc: './images/Snapshoot.png',
     imgMain: './images/Img_placeholder.png',
-    technologies: ['css', 'Javascript', 'Ruby on Rails'],
-    techMain: ['Ruby on rails', 'css', 'Javascript', 'html'],
+    technologies: ['CSS3', 'JavaScript'],
+    techMain: ['CSS3', 'JavaScript'],
     description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+      'An informative website that uses dynamic HTML to load content. Live Album Launch resembles an informative site that details an event scheduled for a launch of an album.',
+    demo: 'https://draxeytina.github.io/Live-Album-Launch/',
+    source: 'https://github.com/Draxeytina/Live-Album-Launch',
   },
   {
-    name: 'My Second Project',
-    title: 'Multi-Post Stories Gain+Glory 2',
+    name: 'Project 2',
+    title: 'Expense Tracker',
     imgsrc: './images/Snapshoot.png',
     imgMain: './images/Img_placeholder.png',
-    technologies: ['css', 'Javascript', 'Ruby on Rails'],
-    techMain: ['Ruby on rails', 'css', 'Javascript', 'html'],
+    technologies: ['SASS', 'Javascript'],
+    techMain: ['Ruby on rails', 'Ruby', 'Javascript'],
     description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+      'A versatile budget application that allows a user to add expenses to a category and consequentially track expenses per category.',
+    demo: '',
+    source: '',
   },
   {
-    name: 'My Favorite Project',
-    title: 'Multi-Post Stories Gain+Glory 3',
+    name: 'Project 3',
+    title: 'DOTA 2',
     imgsrc: './images/Snapshoot.png',
     imgMain: './images/Img_placeholder.png',
-    technologies: ['Bootstraps', 'Javascript', 'React', 'PHP', 'Codepen'],
-    techMain: ['Ruby on rails', 'css', 'Javascript', 'html'],
+    technologies: ['Webpack', 'SASS', 'API-rest', 'Bootstrap', 'json'],
+    techMain: ['JavaScript'],
     description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+      'A SPA that allows the user to see the Pro Players of the Videogame DOTA 2, their information, such as their ID, username, profile, avatar, etc. This is a group project of three developers.',
+    demo: '',
+    source: '',
   },
   {
-    name: 'The Hardest Project',
-    title: 'Multi-Post Stories Gain+Glory 4',
+    name: 'Project 4',
+    title: 'Todo List',
     imgsrc: './images/Snapshoot.png',
     imgMain: './images/Img_placeholder.png',
-    technologies: ['Node.js', 'Javascript', 'Bootstraps'],
-    techMain: ['Ruby on rails', 'css', 'Javascript', 'html'],
+    technologies: ['CSS3', 'Local storage', 'Dynamic programing'],
+    techMain: ['JavaScript'],
     description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+      'An organisation tool for daily tasks that manipulates data in the local storage. User can edit, delete, clear, mark as done and refresh the list.',
+    demo: '',
+    source: '',
   },
   {
-    name: 'Milestone Project',
-    title: 'Multi-Post Stories Gain+Glory 5',
+    name: 'Project 5',
+    title: 'Awesome Books',
     imgsrc: './images/Snapshoot.png',
     imgMain: './images/Img_placeholder.png',
-    technologies: ['css', 'Javascript', 'html'],
-    techMain: ['Ruby on rails', 'css', 'Javascript', 'html'],
+    technologies: ['CSS3'],
+    techMain: ['JavaScript'],
     description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+      'An application that makes use of JavaScript modules, enabling the user to manipulate the device local storage by storing information about their book library.',
+    demo: '',
+    source: '',
   },
   {
-    name: 'Game Project',
-    title: 'Multi-Post Stories Gain+Glory 6',
+    name: 'Project 6',
+    title: 'Blog App',
     imgsrc: './images/Snapshoot.png',
     imgMain: './images/Img_placeholder.png',
-    technologies: ['css', 'Javascript', 'html'],
-    techMain: ['Ruby on rails', 'css', 'Javascript', 'html'],
+    technologies: ['Batchfile', 'CSS3', 'Devise'],
+    techMain: ['Ruby', 'JavaScript'],
     description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+      'The Blog app is a typical blog website. It shows the list of posts and empowers readers to interact with them by adding comments and liking posts. Users can also create their own posts',
+    demo: '',
+    source: '',
   },
 ];
 
@@ -180,12 +192,12 @@ projectBtns.forEach((button) => {
             <h2 id="name">${object[btnId].name}</h2>
             <div class="flex-btn">
                 <div>
-                    <button onclick= "location.href = '${
+                    <button target="_blank" onclick= "location.href = '${
   object[btnId].demo
 }';" class="live">See Live <img src="images/circle.png" alt="See-live-image"></button>
                 </div>
                 <div>
-                    <button onclick= "location.href = '${
+                    <button target="_blank" onclick= "location.href = '${
   object[btnId].source
 }';" class="live">Source <img src="images/cat.png" alt="Source-image"></button>
                 </div>
