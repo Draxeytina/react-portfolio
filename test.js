@@ -114,13 +114,13 @@ const object = [
   },
   {
     name: 'Project 5',
-    title: 'Awesome Books',
+    title: 'Covid-19 Data App',
     imgsrc: './images/Snapshoot.png',
     imgMain: './images/Img_placeholder.png',
     technologies: ['CSS3'],
-    techMain: ['JavaScript'],
+    techMain: ['JavaScript,'],
     description:
-      'An application that makes use of JavaScript modules, enabling the user to manipulate the device local storage by storing information about their book library.',
+      'A single paged application featuring COVID-19 live statistics from Dataflowkit API.',
     demo: '',
     source: '',
   },
@@ -134,7 +134,7 @@ const object = [
     description:
       'The Blog app is a typical blog website. It shows the list of posts and empowers readers to interact with them by adding comments and liking posts. Users can also create their own posts',
     demo: '',
-    source: '',
+    source: 'https://github.com/Draxeytina/Blog',
   },
 ];
 
