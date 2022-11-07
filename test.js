@@ -109,8 +109,8 @@ const object = [
     techMain: ['JavaScript'],
     description:
       'An organisation tool for daily tasks that manipulates data in the local storage. User can edit, delete, clear, mark as done and refresh the list.',
-    demo: '',
-    source: '',
+    demo: 'https://draxeytina.github.io/To-do-list/',
+    source: 'https://github.com/Draxeytina/To-do-list',
   },
   {
     name: 'Project 5',
