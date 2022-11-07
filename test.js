@@ -85,8 +85,8 @@ const object = [
     techMain: ['Ruby on rails', 'Ruby', 'Javascript'],
     description:
       'A versatile budget application that allows a user to add expenses to a category and consequentially track expenses per category.',
-    demo: '',
-    source: '',
+    demo: 'https://frozen-atoll-99525.herokuapp.com/',
+    source: 'https://github.com/Draxeytina/ExpenseTracker',
   },
   {
     name: 'Project 3',
