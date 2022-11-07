@@ -97,8 +97,8 @@ const object = [
     techMain: ['JavaScript'],
     description:
       'A SPA that allows the user to see the Pro Players of the Videogame DOTA 2, their information, such as their ID, username, profile, avatar, etc. This is a group project of three developers.',
-    demo: '',
-    source: '',
+    demo: 'https://mgmediaweb.github.io/js-group-capstone-project/dist/',
+    source: 'https://github.com/mgmediaweb/js-group-capstone-project',
   },
   {
     name: 'Project 4',
