@@ -118,11 +118,11 @@ const object = [
     imgsrc: './images/Snapshoot.png',
     imgMain: './images/Img_placeholder.png',
     technologies: ['CSS3'],
-    techMain: ['JavaScript,'],
+    techMain: ['JavaScript, React, Redux'],
     description:
       'A single paged application featuring COVID-19 live statistics from Dataflowkit API.',
-    demo: '',
-    source: '',
+    demo: 'https://62e436ca596db12c1c7f20eb--voluble-trifle-9ddee3.netlify.app/',
+    source: 'https://github.com/Draxeytina/Covid-19-data',
   },
   {
     name: 'Project 6',
