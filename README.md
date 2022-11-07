@@ -25,7 +25,7 @@ Optionally you can follow the link under see project above ☝️
 👤 Tinashe Timothy Murambinda
 * Github: https://github.com/Draxeytina/
 * Twitter: https://twitter.com/tinamura2
-* LinkedIn: https://www.linkedin.com/in/timothy-tinashe-murambinda-192442232/
+* LinkedIn: https://www.linkedin.com/in/timothy-tinashe-murambinda/
 
 ## Contributing
 You are welcome to make any contributions, issues, and feature requests!
@@ -37,7 +37,7 @@ If you like this project please give a ⭐️!
 I appreciate the efforts of:
 
 * My mentor (Axel)
-* My coding partners (Frederick and Addisu)
+* My coding partners
 * The morning session team 
 * The code reviewers 
 - Thank you 🙏
