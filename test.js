@@ -68,7 +68,7 @@ const object = [
     name: 'Project 1',
     title: 'Mellisa - Live Album Launch',
     imgsrc: './images/Snapshoot.png',
-    imgMain: './images/Img_placeholder.png',
+    imgMain: './images/project1/Live-desk1.jpeg',
     technologies: ['CSS3', 'JavaScript'],
     techMain: ['CSS3', 'JavaScript'],
     description:
@@ -80,7 +80,7 @@ const object = [
     name: 'Project 2',
     title: 'Expense Tracker',
     imgsrc: './images/Snapshoot.png',
-    imgMain: './images/Img_placeholder.png',
+    imgMain: './images/project2/Expense-mob1.jpeg',
     technologies: ['SASS', 'Javascript'],
     techMain: ['Ruby on rails', 'Ruby', 'Javascript'],
     description:
@@ -92,7 +92,7 @@ const object = [
     name: 'Project 3',
     title: 'DOTA 2',
     imgsrc: './images/Snapshoot.png',
-    imgMain: './images/Img_placeholder.png',
+    imgMain: './images/project3/DOTAdesk1.jpeg',
     technologies: ['Webpack', 'SASS', 'API-rest', 'Bootstrap', 'json'],
     techMain: ['JavaScript'],
     description:
@@ -104,7 +104,7 @@ const object = [
     name: 'Project 4',
     title: 'Todo List',
     imgsrc: './images/Snapshoot.png',
-    imgMain: './images/Img_placeholder.png',
+    imgMain: './images/project4/Todo-mob1.jpeg',
     technologies: ['CSS3', 'Local storage', 'Dynamic programing'],
     techMain: ['JavaScript'],
     description:
@@ -116,7 +116,7 @@ const object = [
     name: 'Project 5',
     title: 'Covid-19 Data App',
     imgsrc: './images/Snapshoot.png',
-    imgMain: './images/Img_placeholder.png',
+    imgMain: './images/project5/Covid-desk1.jpeg',
     technologies: ['CSS3'],
     techMain: ['JavaScript, React, Redux'],
     description:
