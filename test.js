@@ -80,7 +80,7 @@ const object = [
     name: 'Project 2',
     title: 'Expense Tracker',
     imgsrc: './images/Snapshoot.png',
-    imgMain: './images/project2/Expense-mob1.jpeg',
+    imgMain: './images/project2/Expense-desk1.jpeg',
     technologies: ['SASS', 'Javascript'],
     techMain: ['Ruby on rails', 'Ruby', 'Javascript'],
     description:
@@ -128,7 +128,7 @@ const object = [
     name: 'Project 6',
     title: 'Blog App',
     imgsrc: './images/Snapshoot.png',
-    imgMain: './images/Img_placeholder.png',
+    imgMain: './images/project6/Tesla-desk1.jpeg',
     technologies: ['Batchfile', 'CSS3', 'Devise'],
     techMain: ['Ruby', 'JavaScript'],
     description:
