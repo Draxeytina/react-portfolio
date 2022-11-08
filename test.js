@@ -66,7 +66,7 @@ function myFunction2() {
 const object = [
   {
     name: 'Project 1',
-    title: 'Mellisa - Live Album Launch',
+    title: 'Live Album Launch',
     imgsrc: './images/Snapshoot.png',
     imgMain: './images/project1/Live-desk1.jpeg',
     technologies: ['CSS3', 'JavaScript'],
