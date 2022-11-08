@@ -67,7 +67,7 @@ const object = [
   {
     name: 'Project 1',
     title: 'Live Album Launch',
-    imgsrc: './images/Snapshoot.png',
+    imgsrc: './images/project1/Live-desk3.jpeg',
     imgMain: './images/project1/Live-desk1.jpeg',
     technologies: ['CSS3', 'JavaScript'],
     techMain: ['CSS3', 'JavaScript'],
