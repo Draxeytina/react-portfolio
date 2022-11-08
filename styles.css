@@ -960,6 +960,7 @@
   }
 
   .multi-post-title {
+    justify-content: center;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
