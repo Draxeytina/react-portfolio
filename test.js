@@ -297,5 +297,5 @@ if (localStorage.getItem('data')) {
   const data = JSON.parse(localStorage.getItem('data'));
   username.value = data.nameValue;
   emailForm.value = data.mailValue;
-  message.value = data.messageValue;
+  message.value = data.messageValue || "";
 }
