@@ -155,7 +155,7 @@ for (let i = 0; i < object.length; i += 1) {
     .map((language) => `<button class="languages">${language}</button>`)
     .join('')}
           </section>
-          <button class="see-project" id="${i}">See Project ${i + 1}</button>
+          <button class="see-project" id="${i}">See Project</button>
        </section>
    </div>
   </section>`;
