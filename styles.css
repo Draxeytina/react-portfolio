@@ -400,6 +400,14 @@ body {
   align-items: center;
 }
 
+#cerrar {
+  cursor: pointer;
+}
+
+#cerrar:hover {
+  color: red;
+}
+
 #full-name-input {
   min-width: 327px;
   border-radius: 4px;
@@ -790,12 +798,13 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-top: 165px;
+    margin-top: 15px;
     transform: translate(-50%, -50%);
     background-color: white;
     padding: 0 1.5rem;
     padding-bottom: 1.5rem;
     border-radius: 0.5rem;
+    width: 80%;
   }
 
   .close-btn-cont {
@@ -807,13 +816,14 @@ body {
   }
 
   .img-cont-popup {
-    display: block;
+    display: flex;
     text-align: center;
-    padding-top: 10px;
+    justify-content: center;
+    overflow: hidden;
   }
 
   #img {
-    transform: scale(0.95);
+    width: 100%;
   }
 
   .popped-window {
@@ -848,6 +858,11 @@ body {
     margin: 20px 5px 20px 5px;
     border: none;
     text-decoration: none;
+    cursor: pointer;
+  }
+
+  .live:hover {
+    scale: 1.02;
   }
 
   .buttons-tech {
@@ -1055,7 +1070,7 @@ body {
   .pop-up-modal {
     position: absolute;
     background-color: white;
-    margin-top: 425px;
+    margin-top: 15px;
     border-radius: 0.5rem;
     width: 385px;
     height: auto;
