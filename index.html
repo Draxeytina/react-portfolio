@@ -39,7 +39,7 @@
       integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
       crossorigin="anonymous"
     />
-    <title>Portfolio</title>
+    <title>Tinashe Portfolio</title>
   </head>
   <body id="body">
     <div class="desktop-header">
@@ -77,13 +77,19 @@
         <nav class="desktop-navbar-header">
           <ul>
             <li class="highlight-background">
-              <p class="desktop-navbar-header">Portfolio</p>
+              <a class="a" href="#portfolio-link">
+                <p class="desktop-navbar-header">Portfolio</p>
+              </a>
             </li>
             <li class="highlight-background">
-              <p class="desktop-navbar-header">About</p>
+              <a class="a" href="#about-link">
+                <p class="desktop-navbar-header">About</p>
+              </a>
             </li>
             <li class="highlight-background">
-              <p class="desktop-navbar-header">Contact</p>
+              <a class="a" href="#contact-link">
+                <p class="desktop-navbar-header">Contact</p>
+              </a>
             </li>
           </ul>
         </nav>
@@ -91,7 +97,7 @@
       <div class="about-container" id="about-container-top">
         <section class="summary-section">
           <h1 class="alignment about-heading1" id="about-heading-1">
-            Hey there. I’m Tinashe
+            Hey there! I’m Tinashe
           </h1>
           <h2 class="alignment about-heading2">I'm a software developer</h2>
           <p class="alignment about-text" id="animations">
@@ -148,9 +154,16 @@
         my work and experience! If you like what you see and have a project you
         need coded, don’t hestiate to contact me.
       </p>
-      <button class="get-my-resume highlight" type="button">
-        Get My Resume
-      </button>
+      <a
+      href="https://docs.google.com/document/d/1ZX9H5mw_gHFeyZ1b9OKwlJkRJ0re3bieVkMFYqXK0vw/edit?usp=sharing"
+      target="_blank"
+      rel="noreferrer"
+      id="get-resume"
+      >
+        <button class="get-my-resume highlight" type="button">
+          Get My Resume
+        </button>
+      </a>
     </section>
     <section class="about-me-other">
       <article class="about-me-article">
@@ -301,19 +314,13 @@
             required
           ></textarea>
           <div class="sub-flex">
-            <a
-              href="https://docs.google.com/document/d/1ZX9H5mw_gHFeyZ1b9OKwlJkRJ0re3bieVkMFYqXK0vw/edit?usp=sharing"
-              target="_blank"
-              rel="noreferrer"
+            <button
+              id="formButton"
+              class="get-my-resume button-input highlight"
+              type="submit"
             >
-              <button
-                id="formButton"
-                class="get-my-resume button-input highlight"
-                type="submit"
-              >
-                Get in touch
+              Get in touch
               </button>
-            </a>
             <div id="div-error">
               <p class="error-msg" id="error-msg"></p>
             </div>
