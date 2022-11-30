@@ -79,7 +79,7 @@ const object = [
   {
     name: 'Project 2',
     title: 'Expense Tracker',
-    imgsrc: './images/Snapshoot.png',
+    imgsrc: './images/project2/Expense-desk2.jpeg',
     imgMain: './images/project2/Expense-desk1.jpeg',
     technologies: ['SASS', 'Javascript'],
     techMain: ['Ruby on rails', 'Ruby', 'Javascript'],
@@ -91,8 +91,8 @@ const object = [
   {
     name: 'Project 3',
     title: 'DOTA 2',
-    imgsrc: './images/Snapshoot.png',
-    imgMain: './images/project3/DOTAdesk1.jpeg',
+    imgsrc: './images/project3/DOTAdesk1.jpeg',
+    imgMain: './images/project3/Dota2.png',
     technologies: ['Webpack', 'SASS', 'API-rest', 'Bootstrap', 'json'],
     techMain: ['JavaScript'],
     description:
@@ -103,7 +103,7 @@ const object = [
   {
     name: 'Project 4',
     title: 'Todo List',
-    imgsrc: './images/Snapshoot.png',
+    imgsrc: './images/project4/Todo-mob1.jpeg',
     imgMain: './images/project4/Todo-mob1.jpeg',
     technologies: ['CSS3', 'Local storage', 'Dynamic programing'],
     techMain: ['JavaScript'],
@@ -115,10 +115,10 @@ const object = [
   {
     name: 'Project 5',
     title: 'Covid-19 Data App',
-    imgsrc: './images/Snapshoot.png',
+    imgsrc: './images/project5/Covid-desk1.jpeg',
     imgMain: './images/project5/Covid-desk1.jpeg',
     technologies: ['CSS3'],
-    techMain: ['JavaScript, React, Redux'],
+    techMain: ['JavaScript', 'React', 'Redux'],
     description:
       'A single paged application featuring COVID-19 live statistics from Dataflowkit API.',
     demo: 'https://62e436ca596db12c1c7f20eb--voluble-trifle-9ddee3.netlify.app/',
@@ -126,15 +126,15 @@ const object = [
   },
   {
     name: 'Project 6',
-    title: 'Blog App',
-    imgsrc: './images/Snapshoot.png',
+    title: 'Tesla Booking',
+    imgsrc: './images/project6/Tesla-desk1.jpeg',
     imgMain: './images/project6/Tesla-desk1.jpeg',
     technologies: ['Batchfile', 'CSS3', 'Devise'],
-    techMain: ['Ruby', 'JavaScript'],
+    techMain: ['Ruby', 'JavaScript', 'Rails', 'React'],
     description:
-      'The Blog app is a typical blog website. It shows the list of posts and empowers readers to interact with them by adding comments and liking posts. Users can also create their own posts',
-    demo: '',
-    source: 'https://github.com/Draxeytina/Blog',
+      'This application was made by creating our API, using Ruby on Rails, containing some Tesla model info in our database. In the front end, made with React & Redux, the user is allowed to create an account and book any of the cars we have displayed. Admin users can add entirely new models by sending data to the API.',
+    demo: 'https://github.com/Draxeytina/Back-end_Tesla-Booking',
+    source: 'https://github.com/Draxeytina/Front-end_Tesla-Booking',
   },
 ];
 
