@@ -189,7 +189,7 @@ projectBtns.forEach((button) => {
         </div>
         
         <div class="popped-window">
-            <h2 id="name">${object[btnId].name}</h2>
+            <h2 id="name">${object[btnId].title}</h2>
             <div class="flex-btn">
                 <div>
                     <button target="_blank" onclick= "location.href = '${
