@@ -146,7 +146,9 @@ works.setAttribute('class', 'desk-works');
 for (let i = 0; i < object.length; i += 1) {
   const read = `
   <section class="works-container">
-  <img class="image-grey" src="${object[i].imgMain}" alt="works-image">
+  <div class="image-grey-container">
+    <img class="image-grey" src="${object[i].imgMain}" alt="works-image">
+  </div>
   <div class="multi">
       <section class="multi-post">
           <h2 class="multi-post-title">${object[i].title}</h2>
