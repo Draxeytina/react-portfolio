@@ -1,0 +1,22 @@
+{
+  "name": "portfolio-trial",
+  "version": "1.0.0",
+  "description": "Personal Portfolio",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Draxeytina/Portfolio-trial.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Draxeytina",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Draxeytina/Portfolio-trial/issues"
+  },
+  "homepage": "https://github.com/Draxeytina/Portfolio-trial#readme"
+}
