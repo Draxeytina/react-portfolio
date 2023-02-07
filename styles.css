@@ -28,7 +28,7 @@ body {
 }
 
 #animations {
-  width: fit-content;
+  width: 46vw;
   color: #3a4a42;
   animation-name: example;
   animation-duration: 3s;
@@ -97,6 +97,12 @@ body {
   line-height: 52px;
   color: rgb(54, 179, 126);
   text-align: center;
+}
+
+.summary-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .summary-section p {
